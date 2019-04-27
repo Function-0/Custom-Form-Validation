@@ -1,0 +1,132 @@
+/*
+ * Student: Ibrahim Jomaa | 300911528
+ * Student: Ahud Mohammed | 301029718
+ * Date: 3/15/2019
+ * 
+ * Filename: index_external.css
+ */
+
+body {
+  font-family: Verdana;
+  font-size: 0.72em;
+}
+
+fieldset {
+  border: none;
+}
+
+footer {
+  text-align: center;
+}
+
+form {
+  background-color: #EBEDF2;
+  border: 0.2em solid;
+  box-shadow: 0.625em 0.625em 0.438em;
+  margin: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  width: 75em;
+}
+
+header {
+  clear: both;
+  margin: auto;
+  text-align: center;
+  width: 75em;
+}
+
+h3, h5 {
+  margin: 0em;
+}
+
+h5:first-child {
+  background-color: #C8CEDD;
+}
+
+h5 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+input[type=text] {
+  display: block;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+label:nth-of-type(even) {
+  margin-left: 1em;
+}
+
+label:not(.field-exception)::before {
+  content: "*";
+  color: red;
+  font-weight: bold;
+}
+
+select:not(.field-exception) {
+  display: block;
+  width: 101.5%;
+}
+
+.asterisk {
+  color: red;
+  font-weight: bold;
+}
+
+.buttons {
+  display: inline-block;
+}
+
+.errorMsg, .errorMsgInput, .errorMsgSelect {
+  display: none;
+  color: red;
+  text-align: left;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-weight: bold;
+}
+
+.field-container {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.field-container > div {
+  width: 100%;
+}
+
+.field-container > div:nth-of-type(even) {
+  margin-left: 2em;
+}
+
+.field-exception {
+  width: 49.5%;
+}
+
+/* 
+Identification label to determine which form
+fields to check for new input.
+.mainInput {} 
+*/
+
+#banner {
+  float: left;
+}
+
+#header-paragraph {
+  margin-bottom: 1em;
+}
+
+#main-buttons {
+  text-align: center;
+}
